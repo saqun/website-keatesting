@@ -1,0 +1,156 @@
+
+/* Page body (bloc_page):
+ * Header 
+ *   - #info_bar: contact-info
+ *   - #company_title_menu: logo + menu (navigation)
+ * Container (#container)
+ */
+
+body {
+			//font-family: 'Trebuchet MS', Arial, sans-serif;
+			font-family: 'Poppins',sans-serif; 
+			padding: 0px;
+			margin: 0px;	
+}
+
+#bloc_page {
+			// width: 900px;
+			// margin: auto;
+			background-color: #82a43a;
+			padding: 0px;
+			margin: 0px;
+}
+
+/********************* #info_bar: Contact info ************************************/
+
+		
+#info_bar {
+			padding-top: 15px;
+			width: 100%;
+			height: 40px;
+			//background-color: blue ;// #99003d; // DeepPink ;
+			background-color:#e6007a;
+			/*display:table; */
+			color: #ffffff; 
+			font-size: 16px; 
+			font-weight: 600; 
+		}
+
+.contactinfo {
+			background-color: transparent; /* DodgerBlue; */
+			border: none;
+			color: white;
+			padding: 0px 0px; /* 12px 16px; */
+			font-size: 16px;
+			cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.contactinfo:hover {
+			background-color: RoyalBlue;
+		}
+		
+#info_bar span {
+			margin-left: 10px;
+		}
+		
+.fas {
+			margin-right:5px;
+}
+
+.social_media {
+			float: right;
+			background-color: transparent;
+			margin-right: 10px;
+		}
+.social_media .fab {
+			margin-right:10px;
+}
+
+/********************* #company_title_menu: logo + menu (navigation) ************************************/
+#company_title_menu {
+			height: 60px;
+			display: flex;
+			justify-content: space-between;
+			background-color: white;
+}
+
+#logo {
+			align-items: baseline;
+}
+		
+#logo img {
+			width: 30px; //59px;
+			height: 30px; //60px;
+			margin-top: 10px;
+			margin-left: 20px;
+			padding-right: 10px;
+		}
+.company_name {
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2.5em;
+	font-weight: 1000;
+	//background-color: gray;
+	//color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	//margin: 0 0 0 10px;
+}
+header h1 {
+			font-family: 'BallparkWeiner', serif;
+			font-size: 2.5em;
+			font-weight: normal;
+			//margin: 0 0 0 10px;
+}		
+
+/* Navigation */
+nav {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			border: 1px solid #e7e7e7;
+			background-color: #f3f3f3;
+}	
+
+nav li {
+			float: left;
+			background-color: transparent; /* DodgerBlue; */
+}
+
+nav li a {
+			display: block;
+			color: #666;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			background-color: transparent; /* DodgerBlue; */
+			font-weight: 400; 
+}
+
+nav li a:hover:not(.active) {
+			background-color: #ddd;
+}
+
+nav li a.active {
+			background-color: #e6007a;
+			color: white; //#4CAF50;
+			font-weight: bold;
+}
+		
+/********************* #container ************************************/
+		
+#container {
+			height: 500px;
+			padding: 50px;
+			// background-color: CC00CC;
+			 //background-image: linear-gradient(to right, #99003d, #cc0066);
+			 // background-image: linear-gradient(to right, blue, #cc0066);
+			 //background-image: linear-gradient(to right, blue, green);
+			 background-image: linear-gradient(to right, #660066, #990099);
+		}
+		
